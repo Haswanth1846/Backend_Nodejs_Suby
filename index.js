@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const vendorRoutes = require('./routes/vendorRoutes');
 const bodyParser = require('body-parser');
 const firmRouter = require('./routes/firmRoutes');
-const productRoutes = require('./routes/productRoutes');
+const productRoutes = require('./routes/productroutes');
 const path = require('path');
 const app = express()
 
